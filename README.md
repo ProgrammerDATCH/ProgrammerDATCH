@@ -11,42 +11,11 @@
 ---
 
 ```
-class Programmer {
-    constructor(skills) {
-      this.skills = new Map(skills);
-      this.technologies = ['ReactJs', 'ReactNative', 'NodeJs', 'PostgreSQL', 'Firebase'];
-    }
-  
-    getTechnologies() {
-      return this.technologies;
-    }
-  
-    getSkills() {
-      return this.skills;
-    }
-  }
-  
-  const programmerDATCH = new Programmer([
-    ['HTML', 'Advanced'],
-    ['CSS', 'Advanced'],
-    ['JS', 'Advanced'],
-    ['PHP', 'Advanced'],
-    ['JAVA', 'Intermediate'],
-    ['C', 'Advanced'],
-    ['C++', 'Advanced'],
-    ['MQL5', 'Advanced'],
-  ]);
-  
-  const technologies = programmerDATCH.getTechnologies();
-  const skills = programmerDATCH.getSkills();
-  
-  console.log('Technologies:');
-  technologies.forEach((technology) => {
-    console.log(`- ${technology}`);
-  });
-  
-  console.log('Skills:');
-  skills.forEach((level, skill) => {
-    console.log(`- ${skill}: ${level}`);
-  });  
+class Programmer{constructor(s){this.s=new Map(s);this.t=['ReactJs','ReactNative','NodeJs','PostgreSQL','Firebase']}gT(){return this.t}gS(){return this.s}}
+
+const p=new Programmer([['HTML','Advanced'],['CSS','Advanced'],['JS','Advanced'],['PHP','Advanced'],['JAVA','Intermediate'],['C','Advanced'],['C++','Advanced'],['MQL5','Advanced']]),t=p.gT(),s=p.gS();
+
+console.log('Technologies:');t.forEach(t=>{console.log(`- ${t}`)});
+console.log('Skills:'),s.forEach((l,t)=>{console.log(`- ${t}: ${l}`)});
+
 ```
