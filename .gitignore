@@ -7,7 +7,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-github
+github/workflows/deploy.yml
 node_modules
 dist
 dist-ssr
