@@ -104,10 +104,10 @@ const socialLinks = [
 const AppFooter = () => {
 	return (
 		<div className="pt-2 pb-2 mt-2 flex flex-col justify-center items-center">
-			<motion.p variants={slideIn("left", "tween", 0.2, 2)} className="text-3xl sm:text-4xl text-[#fff] mb-5">
+			<motion.p variants={slideIn("up", "tween", 0.2, 2)} className="text-3xl sm:text-4xl text-[#fff] mb-5">
 				Follow Me
 			</motion.p>
-			<motion.ul variants={slideIn("right", "tween", 0.2, 3)} className="flex flex-wrap flex-grow-0 gap-2 justify-center animate-pulse">
+			<motion.ul variants={slideIn("down", "tween", 0.2, 3)} className="flex flex-wrap flex-grow-0 gap-2 justify-center animate-pulse">
 				{socialLinks.map((link) => (
 					<a
 						href={link.url}

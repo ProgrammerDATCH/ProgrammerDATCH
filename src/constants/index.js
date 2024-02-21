@@ -1,8 +1,6 @@
 import {
-  mobile,
-  backend,
-  web,
   javascript,
+  java,
   typescript,
   html,
   css,
@@ -133,7 +131,7 @@ const technologies = [
   },
   {
     name: "Java",
-    icon: javascript,
+    icon: java,
   },
   {
     name: "MQL5",
@@ -156,13 +154,13 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "Git",
-    icon: git,
-  },
-  {
     name: "Figma",
     icon: figma,
   },
+  // {
+  //   name: "Git",
+  //   icon: git,
+  // },
   // {
   //   name: "C",
   //   icon: c,
