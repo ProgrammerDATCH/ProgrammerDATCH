@@ -1,13 +1,10 @@
-<img src="https://raw.githubusercontent.com/BEPb/BEPb/5c63fa170d1cbbb0b1974f05a3dbe6aca3f5b7f3/assets/Bottom_up.svg" width="100%" />
+![Contribution](https://github.com/ProgrammerDATCH/ProgrammerDATCH/blob/output/github-contribution-grid-snake-dark.svg)
 
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=I+am+Programmer+DATCH;I+am+Full+Stack+Web+and+App+Developer;I+am+proficient+in+BackEnd;I+am+App+Developer)](https://git.io/typing-svg)
-
-![Contribution](https://github.com/ProgrammerDATCH/ProgrammerDATCH/blob/output/github-contribution-grid-snake-dark.svg)
 
 **ProgrammerDATCH**: *Apply complicated algorithm to get eazy life.* || *Are you delighted that all my stuff are scrumptious?.* 
 
 <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ProgrammerDATCH&layout=compact&theme=material-palenight" alt="DATCH" />
-
 
 <p align="right">
   
@@ -23,8 +20,6 @@ console.log('Skills:'),s.forEach((l,t)=>{console.log(`- ${t}: ${l}`)});
 </p>
 
 <img align="center" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ProgrammerDATCH&theme=2077" alt="DATCH" />
-
-
 
 
 <h3 align="left">Tools I use:</h3>
